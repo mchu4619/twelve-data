@@ -1,1 +1,10 @@
-{ "name": "twelve-data-proxy", "version": "1.0.0", "description": "Secure proxy for Twelve Data API using Vercel Serverless Function.", "main": "api/stock-data.js", "type": "module", "dependencies": { "node-fetch": "^3.4.0" } }
+{
+"name": "twelve-data-proxy",
+"version": "1.0.0",
+"description": "Secure proxy for Twelve Data API using Vercel Serverless Function.",
+"main": "api/stock-data.js",
+"type": "module",
+"dependencies": {
+"node-fetch": "^3.7.0"
+}
+}

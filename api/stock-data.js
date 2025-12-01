@@ -1,6 +1,7 @@
 // Vercel Serverless Function to proxy requests to Twelve Data.
 // The "type": "module" in package.json allows us to use 'import/export'.
 
+// Importing fetch explicitly as a default import for stability in Node environments
 import fetch from 'node-fetch';
 
 // The Vercel function handler
